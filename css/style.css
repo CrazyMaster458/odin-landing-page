@@ -48,6 +48,24 @@ main {
     gap: 3rem;
 }
 
+.header-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-section section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: start;
+}
+
+img {
+    width: 30rem;
+    height: auto;
+}
+
 .features-section {
     display: flex;
     flex-direction: column;
