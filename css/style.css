@@ -6,7 +6,7 @@
 }
 
 html, body, .container {
-    height: 100%;
+    height: full;
 }
 
 body {
@@ -41,8 +41,23 @@ nav ul {
 }
 
 main {
+    display: flex;
+    flex-direction: column;
     flex-grow: 1;
     padding: 5rem 0;
+    gap: 3rem;
+}
+
+.testimonial-section,
+.testimonial-section div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#quote-author {
+    align-self: self-end;
 }
 
 footer {
