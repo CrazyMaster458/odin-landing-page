@@ -45,7 +45,10 @@ main {
     flex-direction: column;
     flex-grow: 1;
     padding: 5rem 0;
-    gap: 3rem;
+}
+
+main > section {
+    padding: 10em 0rem;
 }
 
 .header-section {
@@ -111,14 +114,22 @@ img {
 .cta-section {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-section > div {
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem 12rem;
+    padding: 2rem 5rem;
 }
 
 .cta-section section {
     display: flex;
     flex-direction: column;
+    padding-right: 8rem;
 }
 
 footer {
