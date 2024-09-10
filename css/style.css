@@ -48,6 +48,36 @@ main {
     gap: 3rem;
 }
 
+.features-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0rem 12rem;
+    gap: 2rem;
+}
+
+.features-section div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.features-section div div {
+    height: 120px;
+    border: 2px solid black;
+    border-radius: 15%;
+}
+
+.features-section section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.8rem;
+    text-align: center;
+}
+
+
 .testimonial-section,
 .testimonial-section div {
     display: flex;
