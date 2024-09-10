@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /*border: 1px solid black;*/
+    border: 1px solid black;
 }
 
 html, body {
@@ -17,11 +17,11 @@ body {
 main,
 nav,
 footer {
-    margin: 0rem 10rem;
+    padding: 0rem 10rem;
 }
 
 main {
     flex-grow: 1;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
