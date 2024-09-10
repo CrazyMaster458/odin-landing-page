@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-    padding: 0rem 10rem;
+    padding: 0rem 26rem;
     display: flex;
     flex-direction: column;
 }
@@ -58,6 +58,19 @@ main {
 
 #quote-author {
     align-self: self-end;
+}
+
+.cta-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 12rem;
+}
+
+.cta-section section {
+    display: flex;
+    flex-direction: column;
 }
 
 footer {
