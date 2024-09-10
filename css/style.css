@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*border: 1px solid black;*/
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main,
+nav,
+footer {
+    margin: 0rem 10rem;
+}
+
+main {
+    flex-grow: 1;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
