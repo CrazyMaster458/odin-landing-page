@@ -2,8 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid black;
+    font-family: sans-serif;
+    /*border: 1px solid black;*/
 }
+
+/* POSITIONING */
 
 html, body {
     height: full;
@@ -45,7 +48,6 @@ main {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    padding: 5rem 0;
 }
 
 main > section {
@@ -68,6 +70,8 @@ main > section {
 img {
     width: 30rem;
     height: auto;
+    background-color: #E5E7EB;
+    color: #1F2937;
 }
 
 .features-section > div {
@@ -140,3 +144,62 @@ footer {
     align-items: center;
     padding: 2rem 0;
 }
+
+/* COLORS & FONT */
+
+nav,
+.header-section,
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+#logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul > li,
+.header-section p {
+    color: #E5E7EB;
+}
+
+.header-section button {
+    border: none;
+}
+
+.testimonial-section {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+#quote-author {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.features-section > div > div  div {
+    border-color: #3382F6;
+}
+
+button,
+.cta-section > div {
+    background-color: #3382F6;
+    color: #F9FAF8;
+    border-radius: 0.4rem;
+    border-color: white;
+}
+
+button {
+    padding: 0.5rem 1.5rem;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
