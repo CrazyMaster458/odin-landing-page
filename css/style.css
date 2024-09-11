@@ -5,7 +5,7 @@
     border: 1px solid black;
 }
 
-html, body, .container {
+html, body {
     height: full;
 }
 
@@ -16,8 +16,9 @@ body {
 }
 
 .container {
-    padding: 0rem 26rem;
     display: flex;
+    padding-left: 26rem;
+    padding-right: 26rem;
     flex-direction: column;
 }
 
